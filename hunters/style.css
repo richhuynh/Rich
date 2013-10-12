@@ -1,0 +1,174 @@
+body{
+    background-color:#efcd45;
+    font-family:'Trebuchet MS';
+}
+h1, h2, ul {list-style-type:none;padding:0; margin:0;}
+h1 {font-size: 22px;}
+h2 {font-size:14px;
+}
+a {text-decoration: none;}
+
+
+#game_wrap{
+    width:960px;
+	height:640px;
+	background-color:white;
+    position:relative;
+}
+#info-bar {
+    width:960px;
+    height:60px;
+    background-color:#50849f;
+}
+    #info-bar h1 {
+        width:180px;
+        display:block;
+                float:left;
+    }
+    #info-gold, #info-fame {
+        float:left;
+    }
+    #info-options {
+        position:absolute;
+        left:900px;
+    }
+
+
+.nav-main {
+    width:100px;
+    height:580px;
+    background-color:#515151;
+    position:absolute;
+}
+    .nav-main a {
+        width:60px;
+        padding:20px;
+        display:block;
+        color:white;
+    }
+
+#screen-town{
+}
+    .room {
+        position:absolute;
+        left:100px;
+        display:none;
+    }
+#screen-citadel{
+	display:none;
+}
+    #room-hunters {
+    }
+        .info-operation {
+            width:200px;
+            padding:20px;
+            background-color:#c2c2c2;
+        }
+
+        .info-hunter {
+            width:230px;
+            margin:15px 15px 10px;
+            box-shadow: rgba(0,0,0,0.4) 0px 2px 15px;
+            float:left;
+        }
+            .info-hunter h1, .info-hunter h2 {          
+                float:left;
+                background-color:#a9cbd3;
+                width:200px;
+            }
+                .info-hunter h1 {
+                    padding:10px 15px 6px;  
+                    line-height:20px; 
+                }
+                .info-hunter h2 {
+                    padding:6px 15px;
+                }
+            .info-hunter .portrait {
+                margin:10px;
+                height:95px;
+                width:95px;
+                float:left;
+                background-color:grey;
+            }
+            .info-hunter .stats {         
+                float:left;
+                width:100px;
+                padding-left:10px;
+            }
+                .info-hunter .stats li {
+                    line-height:22px;
+                    font-size:14px;
+                    padding-top:10px;
+                }
+
+            .info-hunter:hover {
+                border:2px solid green;
+                margin:13px 13px 8px;
+            }
+
+
+        .info-recruit {
+            width:460px;
+            margin:15px 15px 10px;
+            box-shadow: rgba(0,0,0,0.4) 0px 2px 15px;
+            float:left;
+        }
+            .info-recruit h1, .info-recruit h2 {   
+                padding:10px 15px 6px;  
+                line-height:20px;        
+                float:left;
+                background-color:#a9cbd3;
+                width:200px;
+            }
+                .info-recruit h1 {
+                    padding:10px 15px 6px;  
+                    line-height:20px; 
+                }
+                .info-recruit h2 {
+                    text-align:right;
+                }
+            .info-recruit .portrait {
+                margin:10px;
+                height:95px;
+                width:95px;
+                float:left;
+                background-color:grey;
+            }
+            .info-recruit .stats {
+                float:left;
+                width:110px;
+                padding-left:10px;
+            }
+                .info-recruit .stats li {
+                    line-height:22px;
+                    font-size:14px;
+                    padding-top:10px;
+                }
+
+
+
+
+
+#screen-market{
+	display:none;
+}
+#screen-hospital{
+	display:none;
+}
+#screen-academy{
+	display:none;
+}
+
+
+
+.navbottom {
+    position:absolute;
+    height:15px;
+    top:525px;
+    background-color:#7fa9a5;
+}
+
+
+
+.cf:before,.cf:after {content: " ";display: table;}
+.cf:after {clear: both;}
